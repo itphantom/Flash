@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="어플 정보" >
+
+        <Preference
+            android:summary="LUCIDA"
+            android:title="개발팀 정보" >
+
+        </Preference>
+        <Preference
+            android:summary="ITPhantom"
+            android:title="개발자 정보" >
+
+        </Preference>
+        <Preference
+            android:summary="개발자에게 메일을 보냅니다"
+            android:title="메일 보내기" >
+            <intent
+                android:action="android.intent.action.SENDTO"
+                android:data="mailto:hw6110@gmail.com" />
+        </Preference>
+
+
+
+
+                <Preference
+
+                    android:key="keyappversion"
+                    android:summary="ALPA"
+                    android:title="버전" />
+
+
+
+            <Preference
+
+                android:key="keyagree"
+
+                android:title="약관 및 취급방침" />
+
+
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>
